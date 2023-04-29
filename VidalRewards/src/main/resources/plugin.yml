@@ -1,0 +1,57 @@
+name: Update-10.607
+version: 1.0
+description: Custom plugin for VidalMC.
+author: xDeeKay
+main: net.vidalmc.vidalrewards.Main
+commands:
+  vidalrewards:
+    description: Vidal rewards main menu.
+    usage: /vidalrewards
+    aliases: vr
+    permission: vidalrewards.vidalrewards
+    permission-message: You do not have permission to do that.
+  addkit:
+    description: Add a kit.
+    usage: /addkit <kit> <cost> <required>
+    permission: vidalrewards.addkit
+    permission-message: You do not have permission to do that.
+  deletekit:
+    description: Delete a kit.
+    usage: /deletekit <kit>
+    permission: vidalrewards.deletekit
+    permission-message: You do not have permission to do that.
+  kitpvp:
+    description: Buy kits.
+    usage: /kitpvp
+    permission: vidalrewards.kits
+    permission-message: You do not have permission to do that.
+  addpermission:
+    description: Add a permission.
+    usage: /addpermission <permission> <cost> <node>
+    permission: vidalrewards.addpermission
+    permission-message: You do not have permission to do that.
+  deletepermission:
+    description: Delete a permission.
+    usage: /deletepermission <permission>
+    permission: vidalrewards.deletepermission
+    permission-message: You do not have permission to do that.
+  permissions:
+    description: Buy permissions.
+    usage: /permissions
+    permission: vidalrewards.permissions
+    permission-message: You do not have permission to do that.
+  addspawner:
+    description: Add a spawner.
+    usage: /addspawner <spawner> <cost> <required>
+    permission: vidalrewards.addspawner
+    permission-message: You do not have permission to do that.
+  deletespawner:
+    description: Delete a spawner.
+    usage: /deletespawner <spawner>
+    permission: vidalrewards.deletespawner
+    permission-message: You do not have permission to do that.
+  spawners:
+    description: Buy spawners.
+    usage: /spawners
+    permission: vidalrewards.spawners
+    permission-message: You do not have permission to do that.

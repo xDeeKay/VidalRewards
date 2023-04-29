@@ -1,0 +1,73 @@
+messages:
+  not-player: '&cYou must be a player to perfrom this command!'
+  incorrect-command: '&cIncorrect syntax. Usage: &f%usage%'
+  no-permission: '&cYou don''t have permission to perform that command.'
+  full-inventory: '&fYour inventory is too full. You need at least &a%size% &ffree slots.'
+  insufficient-funds: '&fYou can''t afford to buy that. You need at least &a$%cost%.'
+  plugin-reload: '&aVidal&fRewards config has been reloaded!'
+  add-kit: '&fAdded kit &a''%kit%'' &ffor &a$%cost%.'
+  cant-add-kit: '&fThe kit &a''%kit%'' &falready exists.'
+  delete-kit: '&fDeleted kit &a''%kit%''.'
+  cant-delete-kit: '&fThe kit &a''%kit%'' &fdoes not exist.'
+  buy-kit: '&fBought kit &a''%kit%'' &ffor &a$%cost%.'
+  cant-buy-kit: '&fYou can''t buy kit &a''%kit%''. &fTo buy this kit you require: &a%required%.'
+  add-permission: '&fAdded permission &a''%permission%'' &ffor &a$%cost%.'
+  cant-add-permission: '&fThe permission &a''%permission%'' &falready exists.'
+  delete-permission: '&fDeleted permission &a''%permission%''.'
+  cant-delete-permission: '&fThe permission &a''%permission%'' &fdoes not exist.'
+  buy-permission: '&fBought permission &a''%permission%'' &ffor &a$%cost%.'
+  cant-buy-permission: '&fYou have already bought the permission &a''%permission%''.'
+  add-spawner: '&fAdded spawner &a''%spawner%'' &ffor &a$%cost%.'
+  cant-add-spawner: '&fThe spawner &a''%spawner%'' &falready exists.'
+  delete-spawner: '&fDeleted spawner &a''%spawner%''.'
+  cant-delete-spawner: '&fThe spawner &a''%spawner%'' &fdoes not exist.'
+  buy-spawner: '&fBought spawner &a''%spawner%'' &ffor &a$%cost%.'
+  cant-buy-spawner: '&fYou can''t buy spawner &a''%spawner%''. &fTo buy this spawner you require: &a%required%.'
+gui:
+  main:
+    settings:
+      title: '&aVidal&fRewards'
+      rows: 3
+    slots:
+      kits:
+        position: 11
+        material: armor_stand:0
+        name: '&fKits'
+        lore:
+        - '&aClick to buy kits'
+        commands:
+        - kits
+      permissions:
+        position: 14
+        material: redstone_comparator:0
+        name: '&fPermissions'
+        lore:
+        - '&aClick to buy permissions'
+        commands:
+        - permissions
+      spawners:
+        position: 17
+        material: mob_spawner:0
+        name: '&fSpawners'
+        lore:
+        - '&aClick to buy spawners'
+        commands:
+        - spawners
+  kits:
+    settings:
+      title: '&aVidal&fRewards &7> &fKits'
+      rows: 3
+    slots: {}
+  permissions:
+    settings:
+      title: '&aVidal&fRewards &7> &fPermissions'
+      rows: 3
+    slots: {}
+  spawners:
+    settings:
+      title: '&aVidal&fRewards &7> &fSpawners'
+      rows: 3
+    slots: {}
+kits: {}
+permissions: {}
+spawners: {}
